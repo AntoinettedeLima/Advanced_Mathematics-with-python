@@ -21,7 +21,7 @@ def f(x):
     elif 0 <= x <= np.pi:
         return x * np.exp(-1)
 
-xValues = np.arange(-3 * np.pi, 3 * np.pi, 0.01)
+xValues = np.arange(-4 * np.pi, 4 * np.pi, 0.01)
 yValues = [f(x) for x in xValues]
 
 plt.title("PF")
